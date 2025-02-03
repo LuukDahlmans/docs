@@ -34,7 +34,7 @@
   "tabs": [
     {
       "name": "Changelog",
-      "url": "https://docs.wpshift.io/changelog/overview"
+      "url": "changelog/overview"
     }
   ],
   "anchors": [
@@ -53,20 +53,7 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "get-started/introduction"
       ]
     }
   ],

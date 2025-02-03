@@ -5,7 +5,6 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "theme": "prism",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
@@ -40,7 +39,7 @@
     },
     {
       "name": "Community",
-      "icon": "slack",
+      "icon": "discord",
       "url": "https://mintlify.com/community"
     },
     {

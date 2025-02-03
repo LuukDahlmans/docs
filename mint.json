@@ -54,7 +54,7 @@
       "group": "Get Started",
       "pages": [
         "get-started/introduction",
-        "your-account"
+        "get-started/your-account"
       ]
     },
     {
@@ -65,6 +65,12 @@
         "workspaces/ssh-keys",
         "workspaces/providers",
         "workspaces/source-providers"
+      ]
+    },
+    {
+      "group": "Servers",
+      "pages": [
+        "servers/overview"
       ]
     }
   ],

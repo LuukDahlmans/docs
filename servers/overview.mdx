@@ -1,0 +1,37 @@
+---
+title: 'Overview'
+description: 'Servers in WPShift are the foundation of your WordPress ecosystem. By creating and managing servers, you can host multiple sites'
+---
+
+## Overview
+With WPShift you can create and manage servers on various cloud providers like [DigitalOcean](https://m.do.co/c/6598aa966e75), [Vultr](https://www.vultr.com/?ref=9717519), Linode, and [Hetzner](https://hetzner.cloud/?ref=nHdrbsIZTrXr). Servers are the foundation of your WordPress ecosystem, and by creating and managing servers, you can easily host multiple sites.
+
+We will do all the heavy lifting for you, from setting up the server to installing WordPress and configuring the server for optimal performance. This way, you can focus on building and managing your WordPress sites without worrying about server management.
+
+### Creating a new WordPress server
+<Info>Before creating a server, ensure that at least one server provider is set up in your workspace settings</Info>
+Creating a new WordPress server is easy, just log in to your WPShift account and click on the **Servers** tab in the top navigation bar. From the servers page, click on the **Create new server** button. You will be prompted to select a server provider, server size, and server location. Once you have selected the server settings, click **Create server** to start the server creation process.
+You have two options to create a server:
+- **Recommended**: This option will create a server with the recommended settings.
+- **Custom**: This option allows you to customize the server settings like Ubuntu version, php version, database, and more.
+It will take around 10-15 minutes to create a new server, and once the server is ready, you can start creating WordPress sites on the server.
+
+**Make sure to not turn off the server while it is being created.** You can close your browser windows and come back later to check the status of the server creation process. We will also email you once the server is ready.
+
+### Managing server settings
+You can manage your server settings by clicking on the **Servers** tab in the top navigation bar. From the servers page, you can see all the servers you have created. Click on the server name to view the server details. Here you can see the server status, server provider, server size, server location, and more. You can also start, stop, restart, and delete the server from the server details page.
+
+#### IP Address and port
+If your server's IP address or ssh port changes, you should update the IP address in the server settings so that WPShift can communicate with the server.
+
+#### Delete server
+If you no longer need a server, you can delete it by clicking the Delete Server button on the server details page. To find this option, click the three dots next to the Reboot Services button. You will also have the option to remove the server from your server provider. Selecting this option will completely delete the server and all associated data. If you choose not to select it, you will need to manually remove the server from your provider.
+
+#### Updating server software
+WPShift automatically updates the server software like PHP, MySQL, and Nginx to the latest stable versions. You can also manually update the server software by clicking the Update Server Software button on the server details page. To find this option, click the three dots next to the Reboot Services button.
+
+#### Reboot server or software
+You can reboot the server or software by clicking the Reboot Services button on the server details page. You can choose to reboot the server or reboot a software service like PHP, MySQL, Firewall, FTP, and the webserver.
+
+#### Refresh server status
+WPShift automatically refreshes the server status every 5 minutes. You can also manually refresh the server status by clicking the Refresh Server Status button on the server details page.

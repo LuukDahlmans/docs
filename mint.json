@@ -28,11 +28,7 @@
   "tabs": [
     {
       "name": "Changelog",
-      "url": "changelog"
-    },
-    {
-      "name": "Support",
-      "url": "https://docs.wpshift.io"
+      "url": "changelog/changelog"
     }
   ],
   "anchors": [

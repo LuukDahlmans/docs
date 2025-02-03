@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "WPShift documentation",
   "theme": "venus",
   "background": {
+    "style": "grid",
     "light": "#FFFFFF",
     "dark": "#16141F"
   },
-  "backgroundImage": "https://wpshift.io/wp-content/uploads/2024/11/Web-App-Hero-BG.webp",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"

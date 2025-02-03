@@ -33,11 +33,6 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.wpshift.io"
-    },
-    {
       "name": "Community",
       "icon": "discord",
       "url": "https://mintlify.com/community"

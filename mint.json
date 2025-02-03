@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://wpshift.io/contact-us/"
     }
   ],
   "topbarCtaButton": {
@@ -27,8 +27,8 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Changelog",
+      "url": "changelog"
     }
   ],
   "anchors": [

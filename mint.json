@@ -7,7 +7,6 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "background": "gradient",
   "rounded": "sharp",
   "colors": {
     "primary": "#1853DB",

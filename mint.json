@@ -94,6 +94,21 @@
         "sites/maintenance"
 
       ]
+    },
+    {
+      "group": "Domains",
+      "pages": [
+        "domains/overview"
+
+      ]
+    },
+    {
+      "group": "Email",
+      "pages": [
+        "email/overview",
+        "email/logs"
+
+      ]
     }
   ],
   "footerSocials": {

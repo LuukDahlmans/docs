@@ -109,6 +109,12 @@
         "email/logs"
 
       ]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        "changelog/overview"
+      ]
     }
   ],
   "footerSocials": {

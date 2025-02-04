@@ -1,0 +1,28 @@
+---
+title: 'Firewall & security'
+description: 'Learn how to manage your firewall and about the security measures WPShift takes to protect your server.'
+---
+
+## Overview
+Firewall and security settings are essential for protecting your server from unauthorized access and malicious attacks. In WPShift, you can configure your server's firewall settings to ensure your server is secure and protected.
+
+Firewalls are used to open ports on your server to the internet. For example port 80 is used for HTTP traffic, and port 443 is used for HTTPS traffic. By default, WPShift servers have a firewall enabled to protect your server from unauthorized access.
+
+### Default Firewall Rules
+WPShift blocks all incoming traffic to your server by default. We only allow traffic on the following ports:
+- 22 (SSH)
+- 80 (HTTP)
+- 443 (HTTPS)
+- 21 (FTP)
+- 4000:5000 (FTP passive mode)
+
+You should never delete the rule that allows SSH traffic to your server; otherwise WPShift will be unable to connect to your server.
+
+### Deleted the SSH (22) rule?
+If you accidentally deleted the SSH rule, WPShift will be unable to connect to the server. You have to manually re-create this rule.
+To do this, you will need to access the server directly using SSH and add the rule to the firewall.
+
+Once connected to your server via ssh, you can add the rule by running the following command:
+```
+ufw allow 22
+```

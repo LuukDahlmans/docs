@@ -70,7 +70,23 @@
     {
       "group": "Servers",
       "pages": [
-        "servers/overview"
+        "servers/overview",
+        "servers/metrics",
+        "servers/logs",
+        "servers/database",
+        "servers/php",
+        "servers/cronjobs",
+        "servers/ssh",
+        "servers/firewall-security"
+      ]
+    },
+    {
+      "group": "Sites",
+      "pages": [
+        "sites/overview",
+        "sites/plugins",
+        "sites/themes",
+        "sites/config"
       ]
     }
   ],

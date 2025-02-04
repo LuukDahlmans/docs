@@ -1,0 +1,31 @@
+---
+title: 'Site backups'
+description: 'Learn how to manage backups for your WordPress sites in WPShift.'
+---
+
+## Overview
+Backups are an essential part of maintaining your WordPress site. In WPShift, you can easily create, manage, and restore backups for your sites to ensure data security and peace of mind. This guide will walk you through the process of managing backups in WPShift.
+
+WPShift uses Restic to back up your sites. To enable backups, ensure Restic is installed on your server. If it's not installed, click the Install Restic button on the backups page.
+
+WPShift supports the following backup locations:
+<CardGroup cols={2}>
+    <Card title="Amazon S3">
+        Your backups are stored in an Amazon S3 bucket.
+    </Card>
+    <Card title="Local">
+        Your backups are stored locally on the same server as the site.
+    </Card>
+    <Card title="FTP">
+        Your backups are stored on an FTP server.
+    </Card>
+</CardGroup>
+
+## Backup jobs
+Backup jobs are scheduled tasks that automatically create backups of your sites at specified intervals. You can create, manage, and delete backup jobs from the backups page.
+
+### Creating a backup job
+To create a backup job, visit the backups page and click the Create new backup job button. You will be prompted to select the site you want to back up, the backup location, and the backup schedule. Once you have configured the backup job settings, click Create backup job to save the job.
+
+
+

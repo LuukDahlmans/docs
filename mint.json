@@ -86,7 +86,13 @@
         "sites/overview",
         "sites/plugins",
         "sites/themes",
-        "sites/config"
+        "sites/config",
+        "sites/backups",
+        "sites/ssl",
+        "sites/page-speed",
+        "sites/redirects",
+        "sites/maintenance"
+
       ]
     }
   ],

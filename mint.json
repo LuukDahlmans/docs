@@ -11,7 +11,7 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "rounded": "sharp",
+  "rounded": "default",
   "colors": {
     "primary": "#1853DB",
     "light": "#1853DB",
